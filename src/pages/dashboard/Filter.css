@@ -1,0 +1,30 @@
+.movie-filter{
+    background-color: #fff;
+    margin: 30px auto;
+}
+.movie-filter span{
+    font-family: inherit;
+    margin: 0 10px;
+}
+.filter-nav{
+    display: inline-block;
+}
+
+.filter-nav button{
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    padding: 10px 10px;
+    font-size: 1em;
+    color: var(--text-color);
+    border-right: 1px solid rgba(199, 194, 194, 0.288);
+    font-weight: bold;
+    cursor: pointer;
+}
+.filter-nav button:last-child{
+    border: none;
+}
+
+.filter-nav .active{
+    color: rgba(180, 154, 66);
+}

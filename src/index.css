@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --text-color: #999;
+  --primary-color: rgb(90, 68, 50);
+  --bg-color: #f4f4f4;
+  --heading-color: #444;
+
+}
+/* base styles */
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  font-size: 1.1em;
+  background-color: var(--bg-color);
+}
+ul, li, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+.title{
+  font-size: 1.1em;
+  color: var(--heading-color);
+  display: inline-block;
+  
+}
+ul {
+  list-style-type: none;
+}
+label{
+  display: block;
+  margin: 24px auto;
+  font-weight: 500;
+}
+label span{
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+
+form{
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 40px;
+  border:1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+
+}
+input, textarea{
+  width: 100%;
+  padding: 8px 6px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  color: #777;
+  font-size: 1.1em;
+  border-radius: 4px;
+} 
+
+.btn{
+  background:none;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.error{
+  color: rgb(202, 6, 6);
+}

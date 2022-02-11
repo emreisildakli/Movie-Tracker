@@ -1,0 +1,49 @@
+.movie-comments{
+    max-width: 300px;
+    margin: 25px 15px 10px 30px;
+}
+
+.movie-comments form{
+    padding: 0;
+    background:none;
+    border: none;
+    box-shadow: none;
+}
+
+.movie-comments .comment-item{
+    position: relative;
+    min-width: 150px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 3%;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+}
+.comment-author{
+    display: flex;
+    align-items: center;
+}
+.comment-author *{
+    margin-right: 10px;
+}
+.comment-author span{
+    font-weight: 500;
+}
+.comment-item .delete-comment{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    cursor: pointer;
+    filter: invert(35%);
+}
+
+.comment-content p{
+    color: rgb(65, 61, 61)
+}
+.comment-content .comment-date{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
